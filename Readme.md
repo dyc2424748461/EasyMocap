@@ -15,6 +15,11 @@
 ![python](https://img.shields.io/github/languages/top/zju3dv/EasyMocap)
 ![star](https://img.shields.io/github/stars/zju3dv/EasyMocap?style=social)
 
+| package | version |
+| ------- | ------- |
+| Python  | 3.9     |
+| CUDA    | 11.6    |
+| torch   | 1.12.0  |
 ## News
 
 - :tada: Our SIGGRAPH 2022 [**Novel View Synthesis of Human Interactions From Sparse Multi-view Videos**](https://chingswy.github.io/easymocap-public-doc/works/multinb.html) is released! Check the [documentation](https://chingswy.github.io/easymocap-public-doc/works/multinb.html).
