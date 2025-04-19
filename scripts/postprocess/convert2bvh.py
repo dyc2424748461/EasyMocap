@@ -165,6 +165,7 @@ def merge_params(param_list, share_shape=True):
     for key in ['poses', 'shapes', 'Rh', 'Th', 'expression']:
         if key in param_list[0].keys():
             output[key] = np.vstack([v[key] for v in param_list])
+    output['poses'] = np.concatenate((output['Rh'] , output['poses']),axis=1)
     if share_shape:
         output['shapes'] = output['shapes'].mean(axis=0, keepdims=True)
     return output
